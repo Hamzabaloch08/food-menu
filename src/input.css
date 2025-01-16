@@ -14,6 +14,7 @@
   overflow: hidden;
 }
 
+
 #foodItemsCard img {
   height: 250px; /* Set a fixed height for the image */
   object-fit: cover; /* Ensure the image covers the area without distortion */
@@ -28,6 +29,17 @@
 }
 
 .menuButton.active {
-    color: blue;
-    border-color: blue;
+  color: blue;
+  border-color: blue;
+}
+
+@media screen and (max-width: 425px) {
+  #foodItemsCard > div {
+    width: 280px;
+    height: 370px;
+  }
+
+  #foodItemsCard img {
+    height: 220px;
+  }
 }
