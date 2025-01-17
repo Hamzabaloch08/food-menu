@@ -2,7 +2,7 @@ const foodItemsCard = document.querySelector('#foodItemsCard');
 const menuButtons = document.querySelectorAll('.menuButton')
 
 let renderMenu = (filteredMenu) => {
-    foodItemsCard.innerHTML = filteredMenu.map(({ name, category, price, description, img }) => {
+    foodItemsCard.innerHTML = filteredMenu.map(({ name, price, description, img }) => {
         return `
             <div class="max-w-sm mx-auto bg-white rounded-lg shadow-md overflow-hidden">
                 <img class="w-full object-cover" src="${img}" alt="${name}" />
