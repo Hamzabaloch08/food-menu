@@ -27,4 +27,4 @@ A simple food menu web application that dynamically displays food items based on
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/food-menu-app.git
+   git clone https://github.com/Hamzabaloch08/food-menu-app.git
