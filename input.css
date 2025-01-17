@@ -1,4 +1,3 @@
-
 #foodItemsCard > div {
   width: 350px; /* Set a consistent width for the cards */
   height: 420px; /* Set a consistent height for the cards */
@@ -10,7 +9,6 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Same as `shadow-md` */
   overflow: hidden;
 }
-
 
 #foodItemsCard img {
   height: 250px; /* Set a fixed height for the image */
